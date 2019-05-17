@@ -1,0 +1,8 @@
+torchvision==0.2.1
+opencv_python==3.4.3.18
+tqdm==4.31.1
+matplotlib==3.0.2
+torch==0.4.1.post2
+numpy==1.15.4
+Pillow==6.0.0
+jupyter
