@@ -1,6 +1,6 @@
 # Dog Breed Classifier
 
-In this project, I built a pipeline to process real-world, user-supplied images. Given an image of a dog, our algorithm will identify an estimate of the canine’s breed. If supplied an image of a human, our code will identify the resembling dog breed. The project is part of fulfillment for a nanodegree at Udacity.
+In this project, I built a pipeline to process real-world, user-supplied images. Given an image of a dog, the algorithm will identify an estimate of the canine’s breed. If supplied an image of a human, the code will identify the resembling dog breed. The project is part of fulfillment for a nanodegree at Udacity.
 
 # Installation
 
@@ -37,6 +37,7 @@ Note: If you are using a Windows machine, you are encouraged to use [7zip](http:
 
 ### Run
 Run all code cells in the notebook (This will take a very very long time to run on a CPU as the code will construct and train a deep convolutional neural network, preferably(for Goodness sake) you should run on a GPU).
+
 Test the app by passing a file path of your own image(s) to the `run_app` function. The `run_app` function predicts the breed of dog for the image provided if a human or any other image is provided the model predicts the resembling dog breed.
 
 
