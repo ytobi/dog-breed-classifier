@@ -36,7 +36,8 @@ Download the [human dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog
 Note: If you are using a Windows machine, you are encouraged to use [7zip](http://www.7-zip.org/) to extract the folder.
 
 ### Run
-Run all code cells in the notebook. Test the app by passing a file path of your own image(s) to the `run_app` function. The `run_app` function predicts the breed of dog for the image provided if a human or any other image is provided the model predicts the resembling dog breed.
+Run all code cells in the notebook (This will take a very very long time to run on a CPU as the code will construct and train a deep convolutional neural network, preferably(for Goodness sake) you should run on a GPU).
+Test the app by passing a file path of your own image(s) to the `run_app` function. The `run_app` function predicts the breed of dog for the image provided if a human or any other image is provided the model predicts the resembling dog breed.
 
 
 The trained model achieved 81% accuracy in prediction canine breed.
