@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 Download or clone this Dog_Breed_Classifier repository. Launch the app with jupyter-notebook.
 ```
-jupyter-notebook dog_app.py
+jupyter-notebook dog_app.ipynb
 ```
 
 # Usage
